@@ -1,0 +1,12 @@
+Kết quả đánh giá mô hình
+
+Mô hình được đánh giá trên tập validation bằng chỉ số mean Average Precision (mAP). Kết quả thu được dao động trong khoảng 0.2 – 0.3, cho thấy hiệu năng của mô hình ở mức trung bình và chưa đạt độ chính xác cao trong bài toán phát hiện đối tượng.
+
+Nguyên nhân có thể đến từ:
+
+Dữ liệu huấn luyện còn hạn chế về số lượng hoặc chưa đa dạng.
+Sự mất cân bằng giữa các lớp đối tượng.
+Chất lượng annotation chưa tối ưu hoặc có nhiễu.
+Mô hình chưa được huấn luyện đủ lâu hoặc chưa được tối ưu tham số (hyperparameters).
+
+Nhìn chung, mô hình vẫn có khả năng nhận diện một số đối tượng cơ bản, tuy nhiên cần cải thiện thêm về dữ liệu và quá trình huấn luyện để nâng cao độ chính xác.
